@@ -85,5 +85,10 @@ INSERT INTO question_quiz (id, question_id, quiz_id) VALUES (1, 1, 1);
 INSERT INTO question_quiz (id, question_id, quiz_id) VALUES (2, 2, 2);
 INSERT INTO question_quiz (id, question_id, quiz_id) VALUES (3, 3, 2);
 
+INSERT INTO vuser (id, username, password, user_type) VALUES (1, 'Rafal', 'Rafal', 'A');
+INSERT INTO vuser (id, username, password, user_type) VALUES (2, 'Dominik', 'Dominik', 'A');
+INSERT INTO vuser (id, username, password, user_type) VALUES (3, 'Teacher', 'Teacher', 'T');
+INSERT INTO vuser (id, username, password, user_type) VALUES (4, 'Normal', 'Normal', 'N');
+
 
 
